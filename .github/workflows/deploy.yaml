@@ -4,6 +4,7 @@ on:
     tags: 
       - 'v*' #anything that starts with V will trigger this
       - '!v*-alpha' #anything that starts with v except alpha
+      
 jobs:
   deploy_to_heroku:
     runs-on: ubuntu-latest
