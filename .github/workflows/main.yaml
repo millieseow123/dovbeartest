@@ -28,7 +28,7 @@ jobs:
       with:
         access_key: ${{ secrets.access_key }}
         secret_key: ${{ secrets.secret_key }}
-        space_name: dovtest
+        space_name: secret-key-dovtest
         space_region: sgp1
         source: .github/badges/jacoco.svg
         out_dir: coverage/${{ github.event.repository.name }}
@@ -38,7 +38,7 @@ jobs:
       with:
         access_key: ${{ secrets.access_key }}
         secret_key: ${{ secrets.secret_key }}
-        space_name: dovtest
+        space_name: secret-key-dovtest
         space_region: sgp1
         source: target/site/jacoco
         out_dir: coverage/${{ github.event.repository.name }}/report
